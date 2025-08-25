@@ -43,22 +43,19 @@ This project includes a **Jupyter Notebook** for data exploration and model trai
 ## ▶️ How to Run
 
 ### 1. Clone the repo
-```bash
+
 git clone https://github.com/vishalkumar172923/Email-Spam-Classifier.git
 cd Email-Spam-Classifier
 
 
-### 2. Install dependencies
+#### 2. Install dependencies
 
-```bash
 pip install -r requirements.txt
-```
 
 ### 3. Run the Flask app
 
-```bash
 python app.py
-```
+
 App will be available at: `http://127.0.0.1:5000/`
 
 
