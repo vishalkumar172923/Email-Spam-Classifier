@@ -13,14 +13,14 @@ This project includes a **Jupyter Notebook** for data exploration and model trai
 ## 📂 Project Structure
 
 
-├── app.py                 # Flask app for web interface
-├── sms-spam-detection.ipynb # Jupyter notebook for training & EDA
-├── model.pkl              # Trained ML model
-├── vectorizer.pkl         # TF-IDF/Count Vectorizer
-├── spam.csv               # Dataset
-├── requirements.txt       # Dependencies
-├── setup.sh               # Setup script
-├── Procfile               # Deployment config
+├── app.py                    # Flask app for web interface
+├── sms-spam-detection.ipynb  # Jupyter notebook for training & EDA
+├── model.pkl                 # Trained ML model
+├── vectorizer.pkl            # TF-IDF/Count Vectorizer
+├── spam.csv                  # Dataset
+├── requirements.txt          # Dependencies
+├── setup.sh                  # Setup script
+├── Procfile                  # Deployment config
 
 
 ## 📊 Dataset
