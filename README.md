@@ -1,17 +1,17 @@
 # 📧 Email Spam Classifier
 
-A Machine Learning project that classifies emails (or SMS messages) as **Spam** or **Ham (Not Spam)**.  
-This project includes a **Jupyter Notebook** for data exploration and model training, and a **Flask web application** for deployment.
+A Machine Learning project that classifies emails (or SMS messages) as Spam or Ham (Not Spam).  
+This project includes a **Jupyter Notebook** for data exploration and model training, and a Flask web application for deployment.
 
 ## 🚀 Features
 - Preprocesses raw text messages (cleaning, tokenization, stopword removal, vectorization).
 - Trained a supervised ML model (Naive Bayes) for spam detection.
-- Saves and loads trained models using **Pickle** (`model.pkl`, `vectorizer.pkl`).
+- Saves and loads trained models using Pickle ('model.pkl', 'vectorizer.pkl').
 - Flask web app for real-time spam detection.
-- Ready for deployment with **requirements.txt**, **setup.sh**, and **Procfile**.
+- Ready for deployment with requirements.txt, setup.sh, and Procfile.
 
 ## 📂 Project Structure
-```
+
 
 ├── app.py                 # Flask app for web interface
 ├── sms-spam-detection.ipynb # Jupyter notebook for training & EDA
@@ -28,14 +28,14 @@ This project includes a **Jupyter Notebook** for data exploration and model trai
 - Contains ~5,500 labelled messages (Spam / Ham).  
 
 ## ⚙️ Tech Stack
-- **Python 3**
-- **Pandas, NumPy, Scikit-learn**
-- **NLTK**
-- **Flask**
-- **Jupyter Notebook**
+- Python 3
+- Pandas, NumPy, Scikit-learn
+- NLTK
+- Flask
+- Jupyter Notebook
 
 ## 📈 Model Performance
-- Algorithm: **Multinomial Naive Bayes**  
+- Algorithm: Multinomial Naive Bayes  
 - Achieved **97% accuracy**, high precision and recall for spam detection.  
 (Add updated metrics if you rerun training!)
 
