@@ -71,11 +71,3 @@ App will be available at: `http://127.0.0.1:5000/`
 
 ## 🤝 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you’d like to change.
-
-```
-
----
-
-👉 Vishal, do you want me to also **add badges (accuracy, GitHub stars, Python version, etc.)** to make it look more professional, or keep it clean and simple?
-```
-
